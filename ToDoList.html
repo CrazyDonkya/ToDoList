@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="toDoList.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="main-body">
+    <div class="main-block">
+        <div class="list-header">
+            <h1>Список дел</h1>
+            <input type="text" class="add-text" placeholder="Текст">
+            <input type="checkbox" class="important-box" type="Важное"><label> Важное</label>
+            <button class="save-button">Добавить</button>
+        </div>
+        <div class="list-body">
+            <ul class="main-list-body">
+                
+            </ul>
+            <button class="delete-all-button">Удалить все</button>
+            <button class="delete-button">Удалить</button>
+            <button class="complete-button">Завершить</button>
+        </div>
+    </div>
+    <div class="second-block">
+        <div class="change-block">
+            <h1>Изменить</h1>
+            <input type="text" class="change-text" placeholder="Текст">
+            <input type="checkbox" class="important-change-box" type="Важное"><label> Важное</label>
+            <button class="safe-button">Изменить</button>
+        </div>
+        <div class="sort-block">
+            <h1>Сортировать</h1>
+            <input type="checkbox" class="sort-lenght-change-box"><label> По длинне</label>
+            <input type="checkbox" class="sort-important-change-box"><label> По важности</label>
+            <button class="sort-button">Сортировать</button>
+        </div>
+    </div>
+</body>
+<script src="ToDoList.js"></script>
+</html>
